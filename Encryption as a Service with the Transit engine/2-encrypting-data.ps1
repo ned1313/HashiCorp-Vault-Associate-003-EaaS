@@ -1,3 +1,6 @@
+# View the current keys
+vault list transit/keys
+
 # Create a base64 encoded string to encrypt
 $base64String = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes("Super secret sauce recipe!!"))
 
